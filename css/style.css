@@ -54,6 +54,7 @@ textarea {
 .input-primary,
 .textarea-primary {
   border: none;
+  border-radius: 0;
   border-bottom: 2px solid black;
   color: black;
   padding-bottom: .5vw;
