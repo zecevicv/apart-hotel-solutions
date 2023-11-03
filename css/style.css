@@ -77,6 +77,21 @@ textarea {
   }
 }
 
+.btn {
+  background-color: black;
+  color: white;
+  padding: .75vw 1.5vw;
+  border: none;
+  font-weight: 200;
+  letter-spacing: .05vw;
+}
+
+@media (max-width: 1023.98px) {
+  .btn {
+    padding: 3vw 6vw;
+  }
+}
+
 /* #Section 1
 ================================================== */
 .section-1 {
@@ -148,9 +163,10 @@ textarea {
     letter-spacing: 1vw;
 
     line-height: 1.4;
-    font-weight: 500;
 
     opacity: .9;
+
+    width: 75%;
   }
   
   .section-1 h2 {
